@@ -1,0 +1,740 @@
+Name: aiohttp
+Version: 3.6.2
+Summary: Async http client/server framework (asyncio)
+Home-page: https://github.com/aio-libs/aiohttp
+Author: Nikolay Kim
+Author-email: fafhrd91@gmail.com
+License: Apache 2
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: attrs, async-timeout, yarl, chardet, multidict
+Required-by: 
+Name: altgraph
+Version: 0.17
+Summary: Python graph (network) package
+Home-page: https://altgraph.readthedocs.io
+Author: Ronald Oussoren
+Author-email: ronaldoussoren@mac.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: PyInstaller
+Name: async-timeout
+Version: 3.0.1
+Summary: Timeout context manager for asyncio programs
+Home-page: https://github.com/aio-libs/async_timeout/
+Author: Andrew Svetlov
+Author-email: andrew.svetlov@gmail.com
+License: Apache 2
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: aiohttp
+Name: attrs
+Version: 19.3.0
+Summary: Classes Without Boilerplate
+Home-page: https://www.attrs.org/
+Author: Hynek Schlawack
+Author-email: hs@ox.cx
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: aiohttp
+Name: boto3
+Version: 1.12.36
+Summary: The AWS SDK for Python
+Home-page: https://github.com/boto/boto3
+Author: Amazon Web Services
+Author-email: UNKNOWN
+License: Apache License 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: jmespath, s3transfer, botocore
+Required-by: smart-open
+Name: botocore
+Version: 1.15.36
+Summary: Low-level, data-driven core of boto 3.
+Home-page: https://github.com/boto/botocore
+Author: Amazon Web Services
+Author-email: UNKNOWN
+License: Apache License 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: urllib3, jmespath, docutils, python-dateutil
+Required-by: s3transfer, boto3
+Name: cachetools
+Version: 4.0.0
+Summary: Extensible memoizing collections and decorators
+Home-page: https://github.com/tkem/cachetools/
+Author: Thomas Kemmer
+Author-email: tkemmer@computer.org
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: google-auth
+Name: CD
+Version: 1.1.0
+Summary: A simple printer of nester lists
+Home-page: http://www.headfristlabs.com
+Author: joydida
+Author-email: onebard@gmail.com
+License: UNKNOWN
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: 
+Name: certifi
+Version: 2019.11.28
+Summary: Python package for providing Mozilla's CA Bundle.
+Home-page: https://certifi.io/
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.com
+License: MPL-2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: requests
+Name: cffi
+Version: 1.14.0
+Summary: Foreign Function Interface for Python calling C code.
+Home-page: http://cffi.readthedocs.org
+Author: Armin Rigo, Maciej Fijalkowski
+Author-email: python-cffi@googlegroups.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: pycparser
+Required-by: gevent
+Name: chardet
+Version: 3.0.4
+Summary: Universal encoding detector for Python 2 and 3
+Home-page: https://github.com/chardet/chardet
+Author: Daniel Blanchard
+Author-email: dan.blanchard@gmail.com
+License: LGPL
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: requests, aiohttp
+Name: click
+Version: 7.1.1
+Summary: Composable command line interface toolkit
+Home-page: https://palletsprojects.com/p/click/
+Author: None
+Author-email: None
+License: BSD-3-Clause
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: Flask
+Name: docutils
+Version: 0.15.2
+Summary: Docutils -- Python Documentation Utilities
+Home-page: http://docutils.sourceforge.net/
+Author: David Goodger
+Author-email: goodger@python.org
+License: public domain, Python, 2-Clause BSD, GPL 3 (see COPYING.txt)
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: botocore
+Name: easygui
+Version: 0.98.1
+Summary: EasyGUI is a module for very simple, very easy GUI programming in Python.  EasyGUI is different from other GUI generators in that EasyGUI is NOT event-driven.  Instead, all GUI interactions are invoked by simple function calls.
+Home-page: https://github.com/robertlugg/easygui
+Author: easygui developers and Stephen Ferg
+Author-email: robert.lugg@gmail.com
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: 
+Name: et-xmlfile
+Version: 1.0.1
+Summary: An implementation of lxml.xmlfile for the standard library
+Home-page: https://bitbucket.org/openpyxl/et_xmlfile
+Author: See ATUHORS.txt
+Author-email: charlie.clark@clark-consulting.eu
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: 
+Name: Flask
+Version: 1.1.1
+Summary: A simple framework for building complex web applications.
+Home-page: https://palletsprojects.com/p/flask/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: Jinja2, itsdangerous, Werkzeug, click
+Required-by: Flask-SocketIO, Flask-Cors
+Name: Flask-Cors
+Version: 3.0.8
+Summary: A Flask extension adding a decorator for CORS support
+Home-page: https://github.com/corydolphin/flask-cors
+Author: Cory Dolphin
+Author-email: corydolphin@gmail.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: Six, Flask
+Required-by: 
+Name: Flask-SocketIO
+Version: 4.2.1
+Summary: Socket.IO integration for Flask applications
+Home-page: http://github.com/miguelgrinberg/Flask-SocketIO/
+Author: Miguel Grinberg
+Author-email: miguelgrinberg50@gmail.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: Flask, python-socketio
+Required-by: 
+Name: future
+Version: 0.18.2
+Summary: Clean single-source support for Python 3 and 2
+Home-page: https://python-future.org
+Author: Ed Schofield
+Author-email: ed@pythoncharmers.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: pefile
+Name: gensim
+Version: 3.8.1
+Summary: Python framework for fast Vector Space Modelling
+Home-page: http://radimrehurek.com/gensim
+Author: Radim Rehurek
+Author-email: me@radimrehurek.com
+License: LGPLv2.1
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: smart-open, six, scipy, numpy
+Required-by: 
+Name: get
+Version: 2019.4.13
+Summary: UNKNOWN
+Home-page: https://github.com/looking-for-a-job/get.py
+Author: None
+Author-email: None
+License: UNKNOWN
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: setuptools, query-string
+Required-by: request
+Name: gevent
+Version: 20.4.0
+Summary: Coroutine-based network library
+Home-page: http://www.gevent.org/
+Author: Denis Bilenko
+Author-email: denis.bilenko@gmail.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: cffi, greenlet
+Required-by: 
+Name: google-api-core
+Version: 1.16.0
+Summary: Google API client core library
+Home-page: https://github.com/GoogleCloudPlatform/google-cloud-python
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: six, protobuf, requests, googleapis-common-protos, google-auth, setuptools, pytz
+Required-by: google-cloud-core
+Name: google-auth
+Version: 1.13.1
+Summary: Google Authentication Library
+Home-page: https://github.com/googleapis/google-auth-library-python
+Author: Google Cloud Platform
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: rsa, cachetools, setuptools, pyasn1-modules, six
+Required-by: google-cloud-storage, google-api-core
+Name: google-cloud-core
+Version: 1.3.0
+Summary: Google Cloud API client core library
+Home-page: https://github.com/GoogleCloudPlatform/google-cloud-python
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: google-api-core
+Required-by: google-cloud-storage
+Name: google-cloud-storage
+Version: 1.27.0
+Summary: Google Cloud Storage API client library
+Home-page: https://github.com/googleapis/python-storage
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: google-auth, google-resumable-media, google-cloud-core
+Required-by: smart-open
+Name: google-resumable-media
+Version: 0.5.0
+Summary: Utilities for Google Media Downloads and Resumable Uploads
+Home-page: https://github.com/GoogleCloudPlatform/google-resumable-media-python
+Author: Google Cloud Platform
+Author-email: googleapis-publisher@google.com
+License: Apache 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: six
+Required-by: google-cloud-storage
+Name: googleapis-common-protos
+Version: 1.51.0
+Summary: Common protobufs used in Google APIs
+Home-page: https://github.com/googleapis/googleapis
+Author: Google LLC
+Author-email: googleapis-packages@google.com
+License: Apache-2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: protobuf
+Required-by: google-api-core
+Name: greenlet
+Version: 0.4.15
+Summary: Lightweight in-process concurrent programming
+Home-page: https://github.com/python-greenlet/greenlet
+Author: None
+Author-email: None
+License: MIT License
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: gevent
+Name: idna
+Version: 2.9
+Summary: Internationalized Domain Names in Applications (IDNA)
+Home-page: https://github.com/kjd/idna
+Author: Kim Davies
+Author-email: kim@cynosure.com.au
+License: BSD-like
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: yarl, requests
+Name: itsdangerous
+Version: 1.1.0
+Summary: Various helpers to pass data to untrusted environments and back.
+Home-page: https://palletsprojects.com/p/itsdangerous/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: Flask
+Name: jdcal
+Version: 1.4.1
+Summary: Julian dates from proleptic Gregorian and Julian calendars.
+Home-page: https://github.com/phn/jdcal
+Author: Prasanth Nair
+Author-email: prasanthhn@gmail.com
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: openpyxl
+Name: Jinja2
+Version: 2.11.1
+Summary: A very fast and expressive template engine.
+Home-page: https://palletsprojects.com/p/jinja/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: MarkupSafe
+Required-by: Flask
+Name: jmespath
+Version: 0.9.5
+Summary: JSON Matching Expressions
+Home-page: https://github.com/jmespath/jmespath.py
+Author: James Saryerwinnie
+Author-email: js@jamesls.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: botocore, boto3
+Name: joblib
+Version: 0.14.1
+Summary: Lightweight pipelining: using Python functions as pipeline jobs.
+Home-page: https://joblib.readthedocs.io
+Author: Gael Varoquaux
+Author-email: gael.varoquaux@normalesup.org
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: 
+Name: MarkupSafe
+Version: 1.1.1
+Summary: Safely add untrusted strings to HTML/XML markup.
+Home-page: https://palletsprojects.com/p/markupsafe/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: Jinja2
+Name: multidict
+Version: 4.7.5
+Summary: multidict implementation
+Home-page: https://github.com/aio-libs/multidict
+Author: Andrew Svetlov
+Author-email: andrew.svetlov@gmail.com
+License: Apache 2
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: yarl, aiohttp
+Name: numpy
+Version: 1.16.2
+Summary: NumPy is the fundamental package for array computing with Python.
+Home-page: https://www.numpy.org
+Author: Travis E. Oliphant et al.
+Author-email: None
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: scipy, pandas, gensim
+Name: openpyxl
+Version: 3.0.3
+Summary: A Python library to read/write Excel 2010 xlsx/xlsm files
+Home-page: https://openpyxl.readthedocs.io
+Author: See AUTHORS
+Author-email: charlie.clark@clark-consulting.eu
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: jdcal, et-xmlfile
+Required-by: 
+Name: pandas
+Version: 0.25.3
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: http://pandas.pydata.org
+Author: None
+Author-email: None
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: python-dateutil, pytz, numpy
+Required-by: 
+Name: pefile
+Version: 2019.4.18
+Summary: Python PE parsing module
+Home-page: https://github.com/erocarrera/pefile
+Author: Ero Carrera
+Author-email: ero.carrera@gmail.com
+License: UNKNOWN
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: future
+Required-by: PyInstaller
+Name: Pillow
+Version: 7.1.1
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: 
+Name: post
+Version: 2019.4.13
+Summary: UNKNOWN
+Home-page: https://github.com/looking-for-a-job/post.py
+Author: None
+Author-email: None
+License: UNKNOWN
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: setuptools
+Required-by: request
+Name: protobuf
+Version: 3.11.3
+Summary: Protocol Buffers
+Home-page: https://developers.google.com/protocol-buffers/
+Author: None
+Author-email: None
+License: 3-Clause BSD License
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: six, setuptools
+Required-by: googleapis-common-protos, google-api-core
+Name: public
+Version: 2019.4.13
+Summary: UNKNOWN
+Home-page: https://github.com/looking-for-a-job/public.py
+Author: None
+Author-email: None
+License: UNKNOWN
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: setuptools
+Required-by: query-string
+Name: pyasn1
+Version: 0.4.8
+Summary: ASN.1 types and codecs
+Home-page: https://github.com/etingof/pyasn1
+Author: Ilya Etingof
+Author-email: etingof@gmail.com
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: rsa, pyasn1-modules
+Name: pyasn1-modules
+Version: 0.2.8
+Summary: A collection of ASN.1-based protocols modules.
+Home-page: https://github.com/etingof/pyasn1-modules
+Author: Ilya Etingof
+Author-email: etingof@gmail.com
+License: BSD-2-Clause
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: pyasn1
+Required-by: google-auth
+Name: pycparser
+Version: 2.20
+Summary: C parser in Python
+Home-page: https://github.com/eliben/pycparser
+Author: Eli Bendersky
+Author-email: eliben@gmail.com
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: cffi
+Name: pyee
+Version: 7.0.1
+Summary: A port of node.js's EventEmitter to python.
+Home-page: https://github.com/jfhbrook/pyee
+Author: Joshua Holbrook
+Author-email: josh.holbrook@gmail.com
+License: UNKNOWN
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: slackeventsapi
+Name: PyInstaller
+Version: 3.6
+Summary: PyInstaller bundles a Python application and all its dependencies into a single package.
+Home-page: http://www.pyinstaller.org
+Author: Giovanni Bajo, Hartmut Goebel, David Vierra, David Cortesi, Martin Zibricky
+Author-email: pyinstaller@googlegroups.com
+License: GPL license with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: pefile, pywin32-ctypes, setuptools, altgraph
+Required-by: 
+Name: python-dateutil
+Version: 2.8.1
+Summary: Extensions to the standard Python datetime module
+Home-page: https://dateutil.readthedocs.io
+Author: Gustavo Niemeyer
+Author-email: gustavo@niemeyer.net
+License: Dual License
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: six
+Required-by: pandas, botocore
+Name: python-engineio
+Version: 3.12.1
+Summary: Engine.IO server
+Home-page: http://github.com/miguelgrinberg/python-engineio/
+Author: Miguel Grinberg
+Author-email: miguelgrinberg50@gmail.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: six
+Required-by: python-socketio
+Name: python-socketio
+Version: 4.5.1
+Summary: Socket.IO server
+Home-page: http://github.com/miguelgrinberg/python-socketio/
+Author: Miguel Grinberg
+Author-email: miguelgrinberg50@gmail.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: six, python-engineio
+Required-by: Flask-SocketIO
+Name: pytz
+Version: 2019.3
+Summary: World timezone definitions, modern and historical
+Home-page: http://pythonhosted.org/pytz
+Author: Stuart Bishop
+Author-email: stuart@stuartbishop.net
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: pandas, google-api-core
+Name: pywin32
+Version: 227
+Summary: Python for Window Extensions
+Home-page: https://github.com/mhammond/pywin32
+Author: Mark Hammond (et al)
+Author-email: mhammond@skippinet.com.au
+License: PSF
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: 
+Name: pywin32-ctypes
+Version: 0.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/enthought/pywin32-ctypes
+Author: Enthought Inc
+Author-email: info@enthought.com
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: PyInstaller
+Name: query-string
+Version: 2019.4.13
+Summary: UNKNOWN
+Home-page: https://github.com/looking-for-a-job/query-string.py
+Author: None
+Author-email: None
+License: UNKNOWN
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: setuptools, public
+Required-by: get
+Name: reportlab
+Version: 3.5.42
+Summary: The Reportlab Toolkit
+Home-page: http://www.reportlab.com/
+Author: Andy Robinson, Robin Becker, the ReportLab team and the community
+Author-email: reportlab-users@lists2.reportlab.com
+License: BSD license (see license.txt for details), Copyright (c) 2000-2018, ReportLab Inc.
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: pillow
+Required-by: 
+Name: request
+Version: 2019.4.13
+Summary: UNKNOWN
+Home-page: https://github.com/looking-for-a-job/request.py
+Author: None
+Author-email: None
+License: UNKNOWN
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: post, setuptools, get
+Required-by: 
+Name: requests
+Version: 2.23.0
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: certifi, idna, chardet, urllib3
+Required-by: smart-open, slackeventsapi, slackclient, google-api-core
+Name: rsa
+Version: 4.0
+Summary: Pure-Python RSA implementation
+Home-page: https://stuvel.eu/rsa
+Author: Sybren A. Stuvel
+Author-email: sybren@stuvel.eu
+License: ASL 2
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: pyasn1
+Required-by: google-auth
+Name: s3transfer
+Version: 0.3.3
+Summary: An Amazon S3 Transfer Manager
+Home-page: https://github.com/boto/s3transfer
+Author: Amazon Web Services
+Author-email: kyknapp1@gmail.com
+License: Apache License 2.0
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: botocore
+Required-by: boto3
+Name: scipy
+Version: 1.4.1
+Summary: SciPy: Scientific Library for Python
+Home-page: https://www.scipy.org
+Author: None
+Author-email: None
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: numpy
+Required-by: gensim
+Name: six
+Version: 1.14.0
+Summary: Python 2 and 3 compatibility utilities
+Home-page: https://github.com/benjaminp/six
+Author: Benjamin Peterson
+Author-email: benjamin@python.org
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: websocket-client, slackeventsapi, slackclient, python-socketio, python-engineio, python-dateutil, protobuf, google-resumable-media, google-auth, google-api-core, gensim
+Name: slackcli
+Version: 1.0.0
+Summary: Slack CLI Application
+Home-page: https://github.com/traveloka/slackcli
+Author: Ricky Winata
+Author-email: ricky.w12@gmail.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: slackclient
+Required-by: 
+Name: slackclient
+Version: 1.0.5
+Summary: Python client for Slack.com
+Home-page: http://github.com/slackapi/python-slackclient
+Author: Ryan Huber
+Author-email: ryan@slack-corp.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: websocket-client, requests, six
+Required-by: slackclient-cli, slackcli
+Name: slackclient-cli
+Version: 0.4.6
+Summary: A command line interface for Slack
+Home-page: https://github.com/Yoshiyuki-Nakahara/python-slackclient-cli
+Author: Yoshiyuki-Nakahara
+Author-email: president.hanage@gmail.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: slackclient
+Required-by: 
+Name: slackeventsapi
+Version: 2.1.0
+Summary: Python Slack Events API adapter
+Home-page: http://github.com/slackapi/python-slack-events-api
+Author: Slack Technologies
+Author-email: opensource@slack.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: flask, pyee, requests, six
+Required-by: 
+Name: smart-open
+Version: 1.10.0
+Summary: Utils for streaming large files (S3, HDFS, GCS, gzip, bz2...)
+Home-page: https://github.com/piskvorky/smart_open
+Author: Radim Rehurek
+Author-email: me@radimrehurek.com
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: requests, boto3, google-cloud-storage
+Required-by: gensim
+Name: urllib3
+Version: 1.25.8
+Summary: HTTP library with thread-safe connection pooling, file post, and more.
+Home-page: https://urllib3.readthedocs.io/
+Author: Andrey Petrov
+Author-email: andrey.petrov@shazow.net
+License: MIT
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: requests, botocore
+Name: websocket-client
+Version: 0.57.0
+Summary: WebSocket client for Python. hybi13 is supported.
+Home-page: https://github.com/websocket-client/websocket-client.git
+Author: liris
+Author-email: liris.pp@gmail.com
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: six
+Required-by: slackclient
+Name: Werkzeug
+Version: 1.0.1
+Summary: The comprehensive WSGI web application library.
+Home-page: https://palletsprojects.com/p/werkzeug/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD-3-Clause
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: Flask
+Name: XlsxWriter
+Version: 1.2.8
+Summary: A Python module for creating Excel XLSX files.
+Home-page: https://github.com/jmcnamara/XlsxWriter
+Author: John McNamara
+Author-email: jmcnamara@cpan.org
+License: BSD
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: 
+Required-by: 
+Name: yarl
+Version: 1.4.2
+Summary: Yet another URL library
+Home-page: https://github.com/aio-libs/yarl/
+Author: Andrew Svetlov
+Author-email: andrew.svetlov@gmail.com
+License: Apache 2
+Location: c:\users\z003ww7c.ad001\pycharmprojects\slackintegration\venv\lib\site-packages
+Requires: idna, multidict
+Required-by: aiohttp

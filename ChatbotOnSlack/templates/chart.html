@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Teamcenter Incident Classification Reports</title>
+  <link href={{ url_for('static', filename='style/tabs.css') }} rel="stylesheet" type="text/css"></link>
+  <!-- <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> -->
+
+<!--  <script src="C:/Users/manis/PycharmProjects/ReportingTub/templates/chart.js/dist/Chart.js"></script>-->
+<!--   <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+
+</head>
+ 
+<h1 style="color:#5E5756">Teamcenter Incident Classification Reports</h1>
+
+<body>
+  <h1 class="names">Hello {{ name }}!</h1>
+</body>
+<script>
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    <!-- Tab links -->
+    <div class="tab">
+	  
+      <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Product Wise</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">User-wise</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Timeline</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="London" class="tabcontent">
+      <div>	<canvas id="pie-chart" width="300" height="100"></canvas></div>
+	  
+      <p>The charts gives indicates, which product has been most troublesome for you employees. </p>
+	  
+    </div>
+
+    <div id="Paris" class="tabcontent">
+      <div>	<canvas id="bar-chart" width="300" height="95"></canvas></div>
+	  
+      <p> The chart provides an insight which user is facing chylanges in which product, </p>
+	  <p> 1. You may decide if a user need training for particular product </p>
+	  <p> 2. you may decide if more resource needs to be hired for a particular product</p>
+	  
+	  
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+      <canvas id="mixed-chart" width="300" height="95"></canvas>
+      <p>The chart provides an insight of whether hiring resourse or a training yeilded any benefit.</p>
+	  
+    </div>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+<script src={{ url_for('static', filename='scripts/Chart.js') }}></script>
+<script src={{ url_for('static', filename='scripts/jsfile_new.js') }}></script>
+</html>
